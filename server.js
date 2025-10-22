@@ -1,3 +1,4 @@
+import 'dotenv/config'; // automatically loads .env
 import express from "express";
 import cors from "cors";
 import { AccessToken } from "livekit-server-sdk";
